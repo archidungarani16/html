@@ -1,0 +1,36 @@
+Q-1:Are the HTML tags and elements the same thing?
+Ans:No, HTML tags and elements are not the same thing, although they are closely related
+
+Q-2:What are tags and attributes in HTML?
+Ans:In HTML (Hypertext Markup Language), tags and attributes are fundamental components used to structure and define the content of a web page.
+
+Q-3:What are void elements in HTML? With Example.
+Ans:Void elements, also known as self-closing or empty elements, are HTML elements that do not have content or closing tags.
+    common examples of void elements:
+    1.'<img>' (Image):
+            Used to embed images.
+    Example:
+            <img src="example.jpg" alt="An example image">
+    2.'<br>' (Line Break):
+            Used to create a line break within text.
+    Example:
+            <p>This is a paragraph.<br>Text on a new line.</p>
+    3.'<hr>' (Horizontal Rule):
+            Used to create a horizontal line, often as a thematic break.
+    Example:
+            <p>Some content above the line</p>
+            <hr>
+            <p>Some content below the line</p>
+
+Q-3:What are HTML Entities? With Example.
+Ans:HTML entities are special codes used to represent reserved characters, as well as characters that may not easily be typed or rendered in HTML documents. These entities begin with an ampersand (&) and end with a semicolon (;). HTML entities are particularly useful when you want to display characters that have special meanings in HTML, such as <, >, or &, without actually triggering their respective HTML tags.
+    examples of HTML entities:
+    1.Less Than (<) and Greater Than (>) Symbols:
+        '<' is represented by '&lt';
+        '>' is represented by '&gt';
+    Example:
+           <p>This is an example of '&lt';'p&gt'; tag.</p>
+    2.Ampersand (&) Symbol:
+        '&' is represented by &amp;
+    Example:
+           <p>This &amp; that</p>   
