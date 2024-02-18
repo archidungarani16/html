@@ -22,7 +22,7 @@ Ans:Void elements, also known as self-closing or empty elements, are HTML elemen
             <hr>
             <p>Some content below the line</p>
 
-Q-3:What are HTML Entities? With Example.
+Q-4:What are HTML Entities? With Example.
 Ans:HTML entities are special codes used to represent reserved characters, as well as characters that may not easily be typed or rendered in HTML documents. These entities begin with an ampersand (&) and end with a semicolon (;). HTML entities are particularly useful when you want to display characters that have special meanings in HTML, such as <, >, or &, without actually triggering their respective HTML tags.
     examples of HTML entities:
     1.Less Than (<) and Greater Than (>) Symbols:
@@ -34,3 +34,60 @@ Ans:HTML entities are special codes used to represent reserved characters, as we
         '&' is represented by &amp;
     Example:
            <p>This &amp; that</p>   
+
+
+Q-5:What are different types of lists in HTML? With Example.
+Ans:
+there are three main types of lists:
+
+-->Ordered List (<ol>):
+
+Represents a list of items in a specific order.
+Example:
+<ol>
+   <li>First item</li>
+   <li>Second item</li>
+   <li>Third item</li>
+</ol>
+Output:
+First item
+Second item
+Third item
+
+-->Unordered List (<ul>):
+
+Represents a list of items without a specific order.
+Example:
+
+<ul>
+   <li>Apple</li>
+   <li>Banana</li>
+   <li>Orange</li>
+</ul>
+Output:
+Apple
+Banana
+Orange
+
+--> Definition List (<dl>):
+
+Represents a list of terms and their corresponding definitions.
+Example:
+
+<dl>
+   <dt>HTML</dt>
+   <dd>HyperText Markup Language</dd>
+   
+   <dt>CSS</dt>
+   <dd>Cascading Style Sheets</dd>
+   
+   <dt>JS</dt>
+   <dd>JavaScript</dd>
+</dl>
+Output:
+HTML
+HyperText Markup Language
+CSS
+Cascading Style Sheets
+JS
+JavaScript
